@@ -1,5 +1,6 @@
 .mid-section {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   width: 100%;
   height: auto;
@@ -8,6 +9,7 @@
 
   .left-mid-section {
     display: flex;
+    flex:auto;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
@@ -30,11 +32,13 @@
 
   .right-mid-section {
     display: flex;
+    flex:auto;
     justify-content: center;
     align-items: center;
     width: 50%;
     height: 100%;
     padding: 10px 5px;
+    margin-right: 15px;
 
     ul {
       list-style-type: none;
