@@ -5,9 +5,9 @@ function ThursdaySpecial() {
     <div className='mid-section'>
       <div className='left-mid-section'>
         <h2>Thursday Special</h2>
-        <p> 12/9/21</p>
-        <span>Chicken Fried Steak, mashed potatoes, cream gravy, country style green beans, dinner roll, and iced tea.</span>
-        {/* <p>$11.95</p> */}
+        <p> 12/16/21</p>
+        <span>Bev's scrumptious smothered pork chops, broccoli cauliflower medley, red potatoes roasted with garlic and rosemary, bread pudding with special sauce, and Iced Tea</span>
+        <p>$12.50</p>
       </div>
       <div className='right-mid-section'>
         <h2>Hours</h2>
