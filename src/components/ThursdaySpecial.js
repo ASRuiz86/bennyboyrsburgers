@@ -1,14 +1,22 @@
 import './thursdayspecial.scss';
+import breakfast from '../images/breakfastSpecial.jpg';
+import christmasHours from '../images/christmasHours.jpg';
 
 function ThursdaySpecial() {
   return (
     <div className='mid-section'>
-      <div className='left-mid-section'>
+      <div className='temp-section'>
+        <img src={breakfast} alt='Jalapeno Burger' />
+        <img src={christmasHours} alt='Jalapeno Burger' />
+      </div>
+
+      {/* <div className='left-mid-section'>
+        
         <h2>Thursday Special</h2>
         <p> 12/16/21</p>
         <span>Bev's scrumptious smothered pork chops, broccoli cauliflower medley, red potatoes roasted with garlic and rosemary, bread pudding with special sauce, and Iced Tea</span>
         <p>$12.50</p>
-      </div>
+      </div> */}
       <div className='right-mid-section'>
         <h2>Hours</h2>
         <ul>
