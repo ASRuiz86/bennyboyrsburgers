@@ -1,13 +1,13 @@
 import './thursdayspecial.scss';
-import breakfast from '../images/breakfastSpecial.jpg';
+import turkeyBacon from '../images/thursdaySpecial_12_23.jpg';
 import christmasHours from '../images/christmasHours.jpg';
 
 function ThursdaySpecial() {
   return (
     <div className='mid-section'>
       <div className='temp-section'>
-        <img src={breakfast} alt='Jalapeno Burger' />
-        <img src={christmasHours} alt='Jalapeno Burger' />
+        <img src={turkeyBacon} alt='Thursday Special 12/23' />
+        <img src={christmasHours} alt='Christmas Hours' />
       </div>
 
       {/* <div className='left-mid-section'>

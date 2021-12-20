@@ -55,10 +55,12 @@
 
   .temp-section {
     display: flex;
+    justify-content: space-between;
     max-width: 100%;
+    width: 100%;
 
     img {
-      width: 50vw;
+      width: 48vw;
       height: auto;
     }
   }
