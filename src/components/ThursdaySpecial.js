@@ -1,6 +1,6 @@
 import './thursdayspecial.scss';
-import turkeyBacon from '../images/thursdaySpecial_12_23.jpg';
-import christmasHours from '../images/christmasHours.jpg';
+// import turkeyBacon from '../images/thursdaySpecial_12_23.jpg';
+// import christmasHours from '../images/christmasHours.jpg';
 
 function ThursdaySpecial() {
   return (
