@@ -5,10 +5,10 @@ import christmasHours from '../images/christmasHours.jpg';
 function ThursdaySpecial() {
   return (
     <div className='mid-section'>
-      <div className='temp-section'>
+      {/* <div className='temp-section'>
         <img src={turkeyBacon} alt='Thursday Special 12/23' />
         <img src={christmasHours} alt='Christmas Hours' />
-      </div>
+      </div> */}
 
       {/* <div className='left-mid-section'>
         
