@@ -1,22 +1,21 @@
 import './thursdayspecial.scss';
-import chickenDumplings from '../images/thursdayspecial_01_05.jpg';
-// import christmasHours from '../images/christmasHours.jpg';
+// import chickenDumplings from '../images/thursdayspecial_01_05.jpg';
 
 function ThursdaySpecial() {
   return (
     <div className='mid-section'>
-      <div className='temp-section'>
+      {/* <div className='temp-section'>
         <img src={chickenDumplings} alt='Thursday Special 01/05' />
         
-      </div>
+      </div> */}
 
-      {/* <div className='left-mid-section'>
+      <div className='left-mid-section'>
         
         <h2>Thursday Special</h2>
-        <p> 12/16/21</p>
-        <span>Bev's scrumptious smothered pork chops, broccoli cauliflower medley, red potatoes roasted with garlic and rosemary, bread pudding with special sauce, and Iced Tea</span>
-        <p>$12.50</p>
-      </div> */}
+        <p> 01/27/2022</p>
+        <span>A choice of Axis Stew or Beef Stew, with Jalapeno Cornbread and Iced Tea</span>
+        <p>$11.75</p>
+      </div>
       <div className='right-mid-section'>
         <h2>Hours</h2>
         <ul>
