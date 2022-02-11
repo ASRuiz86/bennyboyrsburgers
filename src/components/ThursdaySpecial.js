@@ -10,7 +10,7 @@ function ThursdaySpecial() {
       </div> */}
 
       <div className='left-mid-section'>
-        <h2>* Super Bowl LV1 Special *</h2>
+        <h2>*Super Bowl LV1 Special*</h2>
         <p> 02/12/2022 - 02/13/22</p>
         <span>
          1 Dozen Wings with Buffalo, Mango Habenero, BBQ, or Plain, with Carrot and Celery Sticks and Ranch Dip 
