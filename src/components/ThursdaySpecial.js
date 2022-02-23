@@ -9,19 +9,16 @@ function ThursdaySpecial() {
         
       </div> */}
 
-      {/* <div className='left-mid-section'>
-        <h2>*Super Bowl LV1 Special*</h2>
-        <p> 02/12/2022 - 02/13/22</p>
+      <div className='left-mid-section'>
+        <h2>Thursday Special</h2>
+        <p> 02/24/2022</p>
         <span>
-         1 Dozen Wings with Buffalo, Mango Habenero, BBQ, or Plain, with Carrot and Celery Sticks and Ranch Dip 
+        Spaghetti and Meat Sauce, Salad, French Bread and Tea
         </span>
-        <p>$18.00</p>
-        <br/>
-        <span>
-         16oz Bowl of Deer Chili with Jalapeno Cornbread
-        </span>
-        <p>$12.00</p>
-      </div> */}
+        <p>$10.95</p>
+        
+      </div>
+
       <div className='right-mid-section'>
         <h2>Hours</h2>
         <ul>
