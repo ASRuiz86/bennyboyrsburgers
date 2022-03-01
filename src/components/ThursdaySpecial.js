@@ -11,12 +11,12 @@ function ThursdaySpecial() {
 
       <div className='left-mid-section'>
         <h2>Thursday Special</h2>
-        <p> 02/24/2022</p>
+        <p> 03/03/2022</p>
         <span>
-        Spaghetti and Meat Sauce, Salad, French Bread and Tea
+          Hamburger Steak, Brown Gravy, Mashed Potatoes, Stir Fry Veggies, Toast
+          and Tea
         </span>
-        <p>$10.95</p>
-        
+        <p>$11.25</p>
       </div>
 
       <div className='right-mid-section'>
