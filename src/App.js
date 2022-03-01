@@ -1,5 +1,5 @@
 import Banner from './components/Banner';
-import menu from './images/menu.jpg';
+import menu from './images/NewMenu2022.jpg';
 import './App.css';
 import ThursdaySpecial from './components/ThursdaySpecial';
 
