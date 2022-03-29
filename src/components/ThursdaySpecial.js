@@ -9,14 +9,14 @@ function ThursdaySpecial() {
         
       </div> */}
 
-      <div className='left-mid-section'>
+      {/* <div className='left-mid-section'>
         <h2>St. Patrick's Day Special</h2>
         <p> 03/17/2022</p>
         <span>
           Sheppards Pie, Fried Cabbage, Dinner Roll, Green Cookie and Tea
         </span>
         <p>$11.95</p>
-      </div>
+      </div> */}
 
       <div className='right-mid-section'>
         <h2>Hours</h2>
