@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Banner from './components/Banner';
 import menu from './images/NewMenu2022.jpg';
 import './App.css';
