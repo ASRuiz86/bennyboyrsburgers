@@ -20,12 +20,15 @@ const Modal = ({ open, onClose }) => {
           </p>
           <div className='content'>
             <h1>Cornhole Tournament</h1>
-            <h2>Saturday April 2nd</h2>
+            <h2>Saturday April 23rd, @ 3pm</h2>
             <p>
-              Entry fee $10 per person. Sign ups start Thursday March 31st @
-              Binnie Boys. Will draw for teams on Saturday April 2nd, at 1:30
-              p.m. 1st place: 60% of entry fee 2nd place: 40% of entry fee.
-              Rules will be announced at the time of the team drawing.
+              Entry fee $10 per person. 1st place receives 70% of entry fees.
+              2nd place receives 30% of entry fees. 
+              <br/>
+              Call Gary anytime to signup (4323491538) or signup at Binnie Boys Burgers. 
+              Please signup before 2:30pm the day of the tournament.
+              <br/>
+              Bring Your Ice Chests!
             </p>
           </div>
         </div>
