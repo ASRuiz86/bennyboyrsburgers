@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Banner from './components/Banner';
 import menu from './images/NewMenu2022.jpg';
 import './App.css';
@@ -11,7 +11,6 @@ function App() {
 
   return (
     <div>
-     
       <Banner></Banner>
       <ThursdaySpecial />
       <img src={menu} alt='Menu' />
