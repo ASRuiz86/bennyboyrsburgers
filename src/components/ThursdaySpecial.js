@@ -9,7 +9,7 @@ function ThursdaySpecial() {
         
       </div> */}
 
-      <div className='left-mid-section'>
+      {/* <div className='left-mid-section'>
         <h2>Thursday Special</h2>
         <p> 04/21/2022</p>
         <span>
@@ -17,7 +17,7 @@ function ThursdaySpecial() {
           Fruit and Iced Tea
         </span>
         <p>$10.95</p>
-      </div>
+      </div> */}
 
       <div className='right-mid-section'>
         <h2>Hours</h2>

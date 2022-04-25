@@ -3,14 +3,15 @@ import Banner from './components/Banner';
 import menu from './images/NewMenu2022.jpg';
 import './App.css';
 import ThursdaySpecial from './components/ThursdaySpecial';
-import Modal from './components/modals/Modal';
+// import Modal from './components/modals/Modal';
 
 function App() {
-  const [openModal, setOpenModal] = useState(true);
+  // <Modal open={openModal} onClose={() => setOpenModal(false)} />
+  // const [openModal, setOpenModal] = useState(true);
 
   return (
     <div>
-      <Modal open={openModal} onClose={() => setOpenModal(false)} />
+     
       <Banner></Banner>
       <ThursdaySpecial />
       <img src={menu} alt='Menu' />
