@@ -13,7 +13,7 @@ function ThursdaySpecial() {
         <h2>Thursday Special</h2>
         <p> 05/05/2022</p>
         <span>
-          Chicken Ceasar Salad with French Bread and Ice Tea
+          Chicken Caesar Salad with French Bread and Ice Tea
         </span>
         <p>$11.25</p>
       </div>
