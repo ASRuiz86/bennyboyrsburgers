@@ -11,11 +11,11 @@ function ThursdaySpecial() {
 
       <div className='left-mid-section'>
         <h2>Thursday Special</h2>
-        <p> 06/02/2022</p>
+        <p> 06/09/2022</p>
         <span>
-          BBQ Chicken Leg Quarters, Smoked Sausage, Pinto Beans, Spicy Coleslaw, Sliced Bread,Pepper and Onion Slices and Iced Tea
+          Spaghetti with Meat Sauce, Salad, Garlic Bread and Iced Tea
         </span>
-        <p>$12.75</p>
+        <p>$11.50</p>
       </div>
 
       <div className='right-mid-section'>
