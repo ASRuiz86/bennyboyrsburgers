@@ -36,8 +36,7 @@ function ThursdaySpecial() {
           <li>10:30am - 2pm</li>
           <li>5pm - 7pm</li>
           <h3>Friday</h3>
-          <li>10:30am - 2pm</li>
-          <li>5pm - 7pm</li>
+          <li>10:30am - 8pm</li>
           <h3>Saturday</h3>
           <li>8am - 8pm</li>
         </ul>
