@@ -18,16 +18,26 @@
     height: 100%;
     color: rgb(238, 5, 5);
     border: 1px solid rgb(238, 5, 5);
+    text-align: center;
+
+    h1 {
+      font-size: 2rem;
+    }
 
     h2 {
-      margin-bottom: 0;
+      margin: 0;
       font-size: 2rem;
     }
 
     span {
-      margin: 5px 0;
+      margin: 30px 25px !important;
       font-size: 1.1rem;
       text-align: center;
+    }
+
+    p{
+      margin-top: 0;
+      font-size: 1.1rem;
     }
   }
 

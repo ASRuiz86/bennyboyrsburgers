@@ -10,13 +10,19 @@ function ThursdaySpecial() {
       </div> */}
 
       <div className='left-mid-section'>
-        <h2>Thursday Special</h2>
+        <h1>1st Annual 4th of July Cornhole Tournament</h1>
+        <h2>Saturday July 2nd, @4pm</h2>
+        <span>
+         BBQ Chicken, Sausage, Pinto Beans, Potato Salad, Corn on the Cobb
+        </span>
+        <p> $12.00</p>
+        {/* <h2>Thursday Special</h2>
         <p> 06/23/2022</p>
         <span>
           Avacado Stuffed Chicken Breast, Seasoned Green Beans, Red Garlic
           Roasted Potatoes and Iced Tea
         </span>
-        <p>$11.95</p>
+        <p>$11.95</p> */}
       </div>
 
       <div className='right-mid-section'>
