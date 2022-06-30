@@ -51,12 +51,21 @@
     width: 100%;
   }
   .cornHoleimg {
-    height:50vh;
+    height: 50vh;
     width: 100%;
   }
 
   .content {
-    margin-top: 5px !important;
+    margin: 5px 5px !important;
+    padding: 3px 15px;
+
+    h1 {
+      margin-bottom: 0;
+    }
+
+    h2 {
+      margin-bottom: 0;
+    }
   }
 
   .closeBtn {
