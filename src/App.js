@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div>
-      <Modal open={openModal} onClose={() => setOpenModal(false)} />;
+      <Modal open={openModal} onClose={() => setOpenModal(false)} />
       <Banner></Banner>
       <ThursdaySpecial />
       <img src={menu} alt='Menu' />
