@@ -1,21 +1,27 @@
 import './thursdayspecial.scss';
-// import chickenDumplings from '../images/thursdayspecial_01_05.jpg';
+import secondPlace from '../images/secondPlace.jpg';
+import firstPlace from '../images/firstPlace.jpg';
+import thirdPlace from '../images/thirdPlace.jpg';
 
 function ThursdaySpecial() {
   return (
     <div className='mid-section'>
-      {/* <div className='temp-section'>
-        <img src={chickenDumplings} alt='Thursday Special 01/05' />
-        
-      </div> */}
-
       <div className='left-mid-section'>
-        <h1>1st Annual 4th of July Cornhole Tournament</h1>
-        <h2>Saturday July 2nd, @4pm</h2>
+        <h1>Congratulations</h1>
+        <h2>1st Annual 4th of July Cornhole Tournament Winners!!!</h2>
         <span>
-         BBQ Chicken, Sausage, Pinto Beans, Potato Salad, Corn on the Cobb
+          1st: Robert and Tyler
+          <br />
+          2nd: Sarah and Cameron
+          <br />
+          3rd: Bill and Anson
+          <br />
+          Raffle Winners: Holly won the Big Frig Cooler, Pam won the Apple
+          Crown!
+          <br />
+          Thank you everyone who came out! HAPPY FOURTH OF JULY!!
         </span>
-        <p> $12.00</p>
+        {/* <p> $12.00</p> */}
         {/* <h2>Thursday Special</h2>
         <p> 06/23/2022</p>
         <span>
@@ -23,6 +29,11 @@ function ThursdaySpecial() {
           Roasted Potatoes and Iced Tea
         </span>
         <p>$11.95</p> */}
+      </div>
+      <div className='temp-section'>
+        <img src={firstPlace} alt='First Place' />
+        <img src={secondPlace} alt='Second Place' />
+        <img src={thirdPlace} alt='Third Place' />
       </div>
 
       <div className='right-mid-section'>

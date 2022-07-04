@@ -35,7 +35,7 @@
       text-align: center;
     }
 
-    p{
+    p {
       margin-top: 0;
       font-size: 1.1rem;
     }
@@ -66,19 +66,25 @@
 
   .temp-section {
     display: flex;
-    justify-content: space-between;
     max-width: 100%;
-    // width: 100%;
+    width: 100%;
+    border: 1px solid rgb(238, 5, 5);
+  
 
     img {
-      width: 48vw;
+      margin: 0 5px;
+      width: 33%;
       height: auto;
     }
   }
 
   @media screen and (max-width: 975px) {
     font-size: 0.5rem;
-
+    .temp-section {
+      img {
+        margin: 0 1px;
+      }
+    }
     ul {
       padding-left: 5px;
     }
