@@ -1,39 +1,18 @@
 import './thursdayspecial.scss';
-// import secondPlace from '../images/secondPlace.jpg';
-// import firstPlace from '../images/firstPlace.jpg';
-// import thirdPlace from '../images/thirdPlace.jpg';
+
 
 function ThursdaySpecial() {
   return (
     <div className='mid-section'>
-      <div className='left-mid-section'>
-        {/* <h1>Congratulations</h1>
-        <h2>1st Annual 4th of July Cornhole Tournament Winners!!!</h2>
-        <span>
-          1st: Robert and Tyler
-          <br />
-          2nd: Sarah and Cameron
-          <br />
-          3rd: Bill and Anson
-          <br />
-          Raffle Winners: Holly won the Big Frig Cooler, Pam won the Apple
-          Crown!
-          <br />
-          Thank you everyone who came out! HAPPY FOURTH OF JULY!!
-        </span> */}
-        {/* <p> $12.00</p> */}
+      {/* <div className='left-mid-section'>
         <h2>Thursday Special</h2>
-        <br/>
+        <br />
         <p> 07/21/2022</p>
         <span>
-          Salisbury Steak, Gravy, Garlic Mashed Potatoes, Sweet Corn, Dinner Roll and Iced Tea
+          Salisbury Steak, Gravy, Garlic Mashed Potatoes, Sweet Corn, Dinner
+          Roll and Iced Tea
         </span>
         <p>$11.95</p>
-      </div>
-      {/* <div className='temp-section'>
-        <img src={firstPlace} alt='First Place' />
-        <img src={secondPlace} alt='Second Place' />
-        <img src={thirdPlace} alt='Third Place' />
       </div> */}
 
       <div className='right-mid-section'>
