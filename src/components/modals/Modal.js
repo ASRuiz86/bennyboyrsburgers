@@ -1,5 +1,5 @@
 import React from 'react';
-import anniversaryFlyer from '../../images/april_flyer.png';
+import anniversaryFlyer from '../../images/june_17th_flyer.jpg';
 import './Modal.scss';
 
 const Modal = ({ open, onClose }) => {
