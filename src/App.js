@@ -6,7 +6,7 @@ import ThursdaySpecial from './components/ThursdaySpecial';
 import Modal from './components/modals/Modal';
 
 function App() {
-  const [openModal, setOpenModal] = useState(true);
+  const [openModal, setOpenModal] = useState(false);
 
   return (
     <div>
