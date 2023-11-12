@@ -1,8 +1,8 @@
 // import React, {useState} from 'react';
-import Banner from "./components/Banner";
-import menu from "./images/NewMenu2022.jpg";
-import "./App.css";
-import ThursdaySpecial from "./components/ThursdaySpecial";
+import Banner from './components/Banner';
+import menu from './images/NewMenu2022.jpg';
+import './App.css';
+import ThursdaySpecial from './components/ThursdaySpecial';
 // import Modal from './components/modals/Modal';
 
 function App() {
