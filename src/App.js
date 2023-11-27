@@ -1,19 +1,45 @@
-// import React, {useState} from 'react';
-import Banner from './components/Banner';
-import menu from './images/NewMenu2022.jpg';
-import './App.css';
-import ThursdaySpecial from './components/ThursdaySpecial';
-// import Modal from './components/modals/Modal';
+import React, { useState } from "react";
+import "./App.css";
+import Header from "./components/header/Header";
+import BreakfastItems from "./components/menuItems/BreakfastItems";
+import EntreesItems from "./components/menuItems/EntreesItems";
 
 function App() {
   // const [openModal, setOpenModal] = useState(true);
+  const [menuSelected, setMenuSelected] = useState(false);
+  const [menuItemsSelected, setMenuItemsSelected] = useState('');
+
+  const handleSelect = (selectedMenu) => {
+    console.log(selectedMenu);
+    setMenuItemsSelected(selectedMenu);
+    setMenuSelected(true);
+  };
+
+  const menuItems = () => {
+    switch(menuItemsSelected) {
+        case "Breakfast":
+          return <BreakfastItems />;
+          break;
+        case "Entree":
+          return <EntreesItems />
+          break;
+        case "Sides":
+          return <EntreesItems />
+          break;
+        case "Drinks":
+          return <EntreesItems />
+          break;
+        default:
+          return null;
+    }
+  }
 
   return (
     <div>
-      {/* <Modal open={openModal} onClose={() => setOpenModal(false)} /> */}
-      <Banner></Banner>
-      <ThursdaySpecial />
-      <img src={menu} alt='Menu' />
+      <div>
+        <Header onSelect={handleSelect} />
+      </div>
+      <div className='body-container'>{menuSelected && menuItems()}</div>
     </div>
   );
 }

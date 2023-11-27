@@ -1,0 +1,21 @@
+.dropdown-menu {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-menu span {
+    position: sticky;
+    border-bottom: thin solid black;
+}
+
+
+.dropdown-open-container {
+    position: absolute;
+}
+
+.dropdown-open-container ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 3px 0;
+}

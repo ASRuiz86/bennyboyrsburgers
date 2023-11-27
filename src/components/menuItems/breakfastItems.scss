@@ -1,0 +1,16 @@
+.menu-items {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    justify-content: space-between;
+}
+
+.menu-items-entree-extras {
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 900px) {
+    .menu-items {
+        width: 65vw;
+    }
+}
