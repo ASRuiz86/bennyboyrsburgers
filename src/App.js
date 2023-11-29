@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./components/header/Header";
 import BreakfastItems from "./components/menuItems/BreakfastItems";
 import EntreesItems from "./components/menuItems/EntreesItems";
+import Footer from "./components/footer/Footer";
 
 function App() {
   // const [openModal, setOpenModal] = useState(true);
@@ -16,21 +17,21 @@ function App() {
   };
 
   const menuItems = () => {
-    switch(menuItemsSelected) {
-        case "Breakfast":
-          return <BreakfastItems />;
-          break;
-        case "Entree":
-          return <EntreesItems />
-          break;
-        case "Sides":
-          return <EntreesItems />
-          break;
-        case "Drinks":
-          return <EntreesItems />
-          break;
-        default:
-          return null;
+    switch (menuItemsSelected) {
+      case "Breakfast":
+        return <BreakfastItems />;
+        break;
+      case "Entree":
+        return <EntreesItems />
+        break;
+      case "Sides":
+        return <EntreesItems />
+        break;
+      case "Drinks":
+        return <EntreesItems />
+        break;
+      default:
+        return null;
     }
   }
 
@@ -40,6 +41,7 @@ function App() {
         <Header onSelect={handleSelect} />
       </div>
       <div className='body-container'>{menuSelected && menuItems()}</div>
+      <Footer />
     </div>
   );
 }
