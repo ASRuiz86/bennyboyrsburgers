@@ -11,7 +11,7 @@ export const ENTREES_BURGERS = [
 
 export const ENTREES_BURGERS_EXTRAS = [
     {
-        item: "Extras",
+        item: "Extras:",
         price: "$1.25",
         description: "Egg, Bacon, Caramelized Onions, Avocado Slices, Pepper Jack, American Cheese, Swiss, Provolone, House Made Chili"
     }
@@ -37,5 +37,30 @@ export const ENTREES_SPECIALTY_BURGERS = [
         item: "Patty Melt",
         price: "$10.75",
         description: "Texas Toast, Mayo, Pepper Jack & Provolone Cheese, Caramelized Onions"
+    }
+]
+
+export const ENTREES_CHICKEN_WINGS = [
+    {
+        item: "Chicken Wing Basket (6 wings)",
+        price: "$10.50",
+        sauce: "Buffalo, BBQ, Habanero Mango, Plain",
+        description: "Served with potato wedges, celery sticks & Ranch"
+    }
+]
+
+export const ENTREES_HOTDOG = [
+    {
+        item: "Beef Dogs w/ Chips",
+        price: "$5.00",
+        description: "Ketchup/Mustard, Cheese, Onions, & Relish",
+    }
+]
+
+export const ENTREES_HOTDOG_EXTRAS = [
+    {
+        item: "Extras:",
+        price: "$1.50",
+        description:" Jalapenos, House Made Chili"
     }
 ]
