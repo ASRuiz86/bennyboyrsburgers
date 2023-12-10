@@ -3,7 +3,10 @@ import "./App.css";
 import Header from "./components/header/Header";
 import BreakfastItems from "./components/menuItems/BreakfastItems";
 import EntreesItems from "./components/menuItems/EntreesItems";
+import AppetizersItems from "./components/menuItems/AppetizersItems";
 import Footer from "./components/footer/Footer";
+import DessertandDrinks from "./components/menuItems/DessertandDrinks";
+import ImageSlider from "./components/imageSlider/ImageSlider";
 
 function App() {
   // const [openModal, setOpenModal] = useState(true);
@@ -25,10 +28,10 @@ function App() {
         return <EntreesItems />
         break;
       case "Sides":
-        return <EntreesItems />
+        return <AppetizersItems />
         break;
       case "Drinks":
-        return <EntreesItems />
+        return <DessertandDrinks />
         break;
       default:
         return null;
@@ -40,8 +43,8 @@ function App() {
       <div>
         <Header onSelect={handleSelect} />
       </div>
-      <div className='body-container'>{menuSelected && menuItems()}</div>
-      <Footer />
+      <div className='body-container'>{menuSelected ? menuItems() : <ImageSlider />}</div>
+      {/* <Footer /> */}
     </div>
   );
 }
