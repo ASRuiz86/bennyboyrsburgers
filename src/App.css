@@ -7,11 +7,12 @@ img {
 
 .body-container {
   max-width: 100%;
-  max-height: 600px;
+  max-height: auto;
   display: flex;
   justify-content: center;
+  margin: 25px;
 }
 
 .menu-items-container {
-  width: 50%;
+  width: auto;
 }

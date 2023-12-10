@@ -1,29 +1,25 @@
 .headerContainer {
-    display: flex;
-    flex:auto;
-    flex-direction: row;
-    justify-content:space-around;
-    align-items: center;
-    border-style: solid;
-    border-color: black;
-
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 .menuContainer {
-    position:relative;
+  position: relative;
 }
 
 .title {
-    //font-size: 2rem;
+  //font-size: 2rem;
 }
 
 .burgerIcon {
-    width: 15vw;
-    height: 15vh;
+  width: 15vw;
+  height: 15vh;
 }
 
-
 @media screen and (max-width: 900px) {
-    .title {
-        //font-size: 1rem;
-    }
+  .title {
+    //font-size: 1rem;
+  }
 }
