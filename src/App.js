@@ -41,7 +41,9 @@ function App() {
         <Header onSelect={handleSelect} />
       </div>
       <div className='body-container'>{menuSelected && menuItems()}</div>
+      <div>
       <Footer />
+      </div>
     </div>
   );
 }
