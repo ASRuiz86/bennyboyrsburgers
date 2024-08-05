@@ -6,12 +6,13 @@ import EntreesItems from "./components/menuItems/EntreesItems";
 import AppetizersItems from "./components/menuItems/AppetizersItems";
 import Footer from "./components/footer/Footer";
 import DessertandDrinks from "./components/menuItems/DessertandDrinks";
-import ImageSlider from "./components/imageSlider/ImageSlider";
+import SimpleImageSlider from "react-simple-image-slider";
+import { SLIDES } from "../src/slideImages/slideImages";
 
 function App() {
   // const [openModal, setOpenModal] = useState(true);
   const [menuSelected, setMenuSelected] = useState(false);
-  const [menuItemsSelected, setMenuItemsSelected] = useState('');
+  const [menuItemsSelected, setMenuItemsSelected] = useState("");
 
   const handleSelect = (selectedMenu) => {
     console.log(selectedMenu);
@@ -25,25 +26,37 @@ function App() {
         return <BreakfastItems />;
         break;
       case "Entree":
-        return <EntreesItems />
+        return <EntreesItems />;
         break;
       case "Sides":
-        return <AppetizersItems />
+        return <AppetizersItems />;
         break;
       case "Drinks":
-        return <DessertandDrinks />
+        return <DessertandDrinks />;
         break;
       default:
         return null;
     }
-  }
+  };
 
   return (
     <div>
       <div>
         <Header onSelect={handleSelect} />
       </div>
-      <div className='body-container'>{menuSelected ? menuItems() : <ImageSlider />}</div>
+      <div className='body-container'>
+        {menuSelected ? (
+          menuItems()
+        ) : (
+          <SimpleImageSlider
+            width={896}
+            height={504}
+            images={SLIDES}
+            showBullets={true}
+            showNavs={true}
+          />
+        )}
+      </div>
       {/* <Footer /> */}
     </div>
   );
